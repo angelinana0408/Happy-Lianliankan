@@ -1,0 +1,50 @@
+﻿生成启动时间为 2015/1/4 15:09:47。
+     1>项目“C:\Users\qiaoyang\Desktop\最终\LLKClient\HappyLLK\HappyLLK.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\HappyLLK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         e:\C\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\HappyLLK.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HappyLLKDlg.cpp
+         HappyLLKDlg.cpp
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(5): warning C4627: “#include <Windows.h>”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(6): warning C4627: “#include "mmsystem.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(505): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1014): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1017): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1021): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1027): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1041): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1059): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1060): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1061): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\qiaoyang\desktop\最终\llkclient\happyllk\happyllkdlg.cpp(1064): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\c\vc\include\stdio.h(234) : 参见“fopen”的声明
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\C\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\qiaoyang\Desktop\最终\LLKClient\Debug\HappyLLK.exe" /INCREMENTAL /NOLOGO /MANIFEST:NO /DEBUG /PDB:"C:\Users\qiaoyang\Desktop\最终\LLKClient\Debug\HappyLLK.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\qiaoyang\Desktop\最终\LLKClient\Debug\HappyLLK.lib" /MACHINE:X86 Debug\HappyLLK.res
+         Debug\GameClass.obj
+         Debug\HappyLLK.obj
+         Debug\HappyLLKDlg.obj
+         Debug\MyProCtrl.obj
+         Debug\MyServer.obj
+         Debug\stdafx.obj
+         HappyLLK.vcxproj -> C:\Users\qiaoyang\Desktop\最终\LLKClient\Debug\HappyLLK.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\HappyLLK.unsuccessfulbuild”。
+         正在对“Debug\HappyLLK.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\qiaoyang\Desktop\最终\LLKClient\HappyLLK\HappyLLK.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.98
